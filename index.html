@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+  <script type="text/javascript" src="js/paper-full.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/lodash.min.js"></script>
+  <script src="js/sketch-setup.js"></script>
+  <link rel="stylesheet" href="./sketch_min.css">
+  </link>
+
+  <script>
+    paper.install(window);
+    window.onload = function() {
+      setupSketchPad();
+    } // close window.onload function
+  </script>
+</head>
+
+<body>
+  <div id="display-area">
+    <div class="centered" id="sketchpad_container"> 
+    <canvas id="sketchpad"></canvas>
+    </div>
+  </div>
+</body>
+
+</html>

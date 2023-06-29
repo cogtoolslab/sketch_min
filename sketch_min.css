@@ -1,0 +1,24 @@
+div#display-area {
+  display: flex;
+}
+
+#sketchpad_container {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 200px;
+  margin: auto;
+  background: #ffffff;
+  border: solid 2px #999;
+  display: inline-block;
+}
+
+#sketchpad {
+  /* height: 448px;
+    width: 448px; */
+  height: 100%;
+  width: 100%;
+  float: top;
+  margin: auto;
+  background: #ffffff;
+}
